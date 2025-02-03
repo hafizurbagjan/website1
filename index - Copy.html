@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biker Zone</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .font-poppins {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'bike-primary': '#E76F51',
+              'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+            },
+          },
+        },
+      }
+    </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>General Banking</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link href="hafiz/style.css" rel="stylesheet" type="text/css">
+      <link href="hafiz/styletxtslide.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="hafiz/tickr-style-red.css" type="text/css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- For Home Icon--><!-- For Search Icon-->
+      <meta name="google-site-verification" content="4C1KJ_aoT-dvOnkVDQuXBJUiCe3oUkRbAie2P6Tf1v0" />
+  </head>
+  <body class="font-poppins">
+    <!-- Header Section -->
+    <header class="md:container mx-auto">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <a class="font-bold text-xl">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Service</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <a class="btn bg-bike-primary text-white">Login</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider/Carousel -->
+      <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
+        <!-- Slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h2 class="text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- image content -->
+            <div class="flex-1">
+              <img src="./images/slider/bike1.png" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h2 class="text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- image content -->
+            <div class="flex-1">
+              <img src="./images/slider/bike2.png" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h2 class="text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- image content -->
+            <div class="flex-1">
+              <img src="./images/slider/bike3.png" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <main class="md:container mx-auto"> <!-- Main Section -->
+      <section></section><!-- featured bike section - Homework -->
+      <section class="my-24"> <!-- Latest Bike Section -->
+        <h3 class="text-5xl font-bold text-center mb-12">Latest Bikes</h3>
+        <!-- cards -->
+        <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <!-- card 1 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="./images/others/gb.jpeg" alt="Shoes" />
+            </figure>
+            <div class="card-body space-y-5">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="./images/others/latest2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body space-y-5">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="./images/others/latest3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body space-y-5">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button class="btn bg-bike-primary text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Happy Clients Happy Homework -->
+      <section></section>
+
+      <section class="my-24"> <!-- FAQ Section -->
+        <h3 class="text-5xl font-bold text-center mb-12">
+          Bangladesh Bank <span class="text-bike-primary">Circular</span>
+        </h3>
+
+        <div class="panel-group bg-bike-primary-bg" id="accordion1" style="margin: 50px">
+            <div class="panel panel-default"> <!-- Begining of 1st Level------------------------------------------------------------------------------------------------------------------------------>
+                <div class="w3-hover-red">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse1">1.	General Banking</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body"> <!-- Begining of 2nd Level------------------------------------------------------------------------------------------------------------------------------>
+                        <div class="panel-group" id="accordion11">
+                            <div class="panel panel-default">
+                                <div class="w3-hover-red">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion11" href="#collapse11">1.1. AC Opening & Deposits</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse11" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="panel-group" id="accordion111"><!-- Begining of 4th Level------------------------------------------------------------------------------------------------------------------------------>
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion111" href="#collapse111">1.1.1. Account Opening</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse111" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                      <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                      <div class="panel-group" id="accordion1111">
+                                                        <div class="panel panel-default">
+                                                            <div class="w3-hover-red">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion1111" href="#collapse1111">1.1.1.1. e-KYC</a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapse1111" class="panel-collapse collapse">
+                                                                <div class="panel-body">
+                                                                    <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                                    <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Guidelines for cash withdrawal through cheque of Illiterate Customer. Ref: BRPD Circular No. 04 dated 21-May-2018.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/may212018brpd04.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/may212018brpd04.pdf</a></footer></section></div>
+                                                                    <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="w3-hover-red">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion1111" href="#collapse1112">1.1.1.2. Nil</a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapse1112" class="panel-collapse collapse">
+                                                                <div class="panel-body">
+                                                                    <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                                    <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                                    <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                                    <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                                </div>
+                                                            </div>
+                                                        </div>									
+                                                    </div>
+                                                    <!-- End of 4th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion111" href="#collapse112">1.1.2. Account Operations</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse112" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                      <div class="panel-group" id="accordion1121">
+                                                        <div class="panel panel-default">
+                                                            <div class="w3-hover-red">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion1111" href="#collapse1121">1.1.2.1. SND AC</a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapse1121" class="panel-collapse collapse">
+                                                                <div class="panel-body">
+                                                                    <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                                    <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Guidelines for cash withdrawal through cheque of Illiterate Customer. Ref: BRPD Circular No. 04 dated 21-May-2018.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/may212018brpd04.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/may212018brpd04.pdf</a></footer></section></div>
+                                                                    <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="w3-hover-red">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion1121" href="#collapse1122">1.1.2.2. DPS and other Savings Scheme</a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapse1122" class="panel-collapse collapse">
+                                                                <div class="panel-body">
+                                                                    <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                                    <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                                    <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                                    <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                          <div class="w3-hover-red">
+                                                              <h4 class="panel-title">
+                                                                  <a data-toggle="collapse" data-parent="#accordion1121" href="#collapse1123">1.1.2.3. Deceased Account</a>
+                                                              </h4>
+                                                          </div>
+                                                          <div id="collapse1123" class="panel-collapse collapse">
+                                                              <div class="panel-body">
+                                                                  <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                                  <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                                  <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                                  <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                              </div>
+                                                          </div>
+                                                      </div>		
+                                                      <div class="panel panel-default">
+                                                        <div class="w3-hover-red">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion1121" href="#collapse1124">1.1.2.4. Dormant Account</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse1124" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                                <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                                <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                                <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                            </div>
+                                                        </div>
+                                                    </div>		
+                                                    <div class="panel panel-default">
+                                                      <div class="w3-hover-red">
+                                                          <h4 class="panel-title">
+                                                              <a data-toggle="collapse" data-parent="#accordion1121" href="#collapse1125">1.1.2.5. Account of digital commerce enterprises</a>
+                                                          </h4>
+                                                      </div>
+                                                      <div id="collapse1125" class="panel-collapse collapse">
+                                                          <div class="panel-body">
+                                                              <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                              <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                              <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                              <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                          </div>
+                                                      </div>
+                                                  </div>		
+                                                  <div class="panel panel-default">
+                                                    <div class="w3-hover-red">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion1121" href="#collapse1126">1.1.2.6. Revenue A/C or Escrow A/C</a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapse1126" class="panel-collapse collapse">
+                                                        <div class="panel-body">
+                                                            <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                            <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                            <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                            <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                        </div>
+                                                    </div>
+                                                </div>		
+                                                <div class="panel panel-default">
+                                                  <div class="w3-hover-red">
+                                                      <h4 class="panel-title">
+                                                          <a data-toggle="collapse" data-parent="#accordion1121" href="#collapse1127">1.1.2.7. "Statement of Transaction" and "Balance Confirmation Certificate"</a>
+                                                      </h4>
+                                                  </div>
+                                                  <div id="collapse1127" class="panel-collapse collapse">
+                                                      <div class="panel-body">
+                                                          <!-- Begining of 6th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                          <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Application of Interest on Deposit and Loan Accounts of Deceased Individuals.. Ref: BRPD Circular No. 11 dated 06-Aug-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/aug062017brpd11.pdf</a></footer></section></div>
+                                                          <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Payment to the nominee/nominees of the deceased account holder according to Section-103 of BCA. Ref: BRPD Circular No. 06 dated 19-Apr-2017.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/brpd/apr192017brpd06.pdf</a></footer></section></div>
+                                                          <!-- End of 6th Level---------------------------------------------------------------------------------------------------------------------->
+                                                      </div>
+                                                  </div>
+                                              </div><!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>									
+                                        </div><!-- End of 4th Level------------------------------------------------------------------------------------------------------------------------------>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="w3-hover-red">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion11" href="#collapse12">1.2. Cash Management</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse12" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <!-- Begining of 4th Level------------------------------------------------------------------------------------------------------------------------------>
+                                        
+                                        <div class="panel-group" id="accordion121">
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion121" href="#collapse121">1.2.1.	Mutilated Notes</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse121" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+        <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Regarding Opening 10 Taka Account for Small/ Marginal/ Landless/ Natural Disaster Affected Farmers and Small or Micro Traders. Ref: GBCSRD Circular Letter No. 07  dated 18-Jun-2015.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/gbcrd/jun182015gbcsrdl07.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/gbcrd/jun182015gbcsrdl07.pdf</a></footer></section></div>
+        <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Regarding Profit/interest rate of Tk 10 (Ten), 50 (Fifty) and 100 (Hundred) Accounts. Ref: GBCSRD Circular No. 02 dated 03-Mar-2015.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/gbcrd/mar032015gbcrd02.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/gbcrd/mar032015gbcrd02.pdf</a></footer></section></div>
+                                                        <!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion121" href="#collapse122">1.2.2.	Note Packet</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse122" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                        <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Regarding transformation of school banking account into general savings account. Ref: FID Circular Letter No. 02 dated 17-Dec-2018.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/finincld/dec172018fidl02.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/finincld/dec172018fidl02.pdf</a></footer></section></div>
+                                                        <!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of 4th Level---------------------------------------------------------------------------------------------------------------------->
+                                    </div>										
+                                </div>
+                            </div>
+                        </div>				
+                        <!-- Begining of 3rd Level------------------------------------------------------------------------------------------------------------------------------>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="w3-hover-red">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapse2">2.	Credit Operations</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <!-- Begining of 3rd Level------------------------------------------------------------------------------------------------------------------------------>
+                        <div class="panel-group" id="accordion21">
+                            <div class="panel panel-default">
+                                <div class="w3-hover-red">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion21" href="#collapse21">2.1. Own Bank Finance</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse21" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <!-- Begining of 4th Level------------------------------------------------------------------------------------------------------------------------------>
+                                        
+                                        <div class="panel-group" id="accordion211">
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion211" href="#collapse211">2.1.1.	Retail Loan/ Consumer Financing</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse211" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                        <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Regarding Bangladesh Bank (Note Refund) Regulations-2012. Ref: DCM Circular No. 2012/04 dated 10-Dec-2012.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/dcmps/dec102012dcm04.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/dcmps/dec102012dcm04.pdf</a></footer></section></div>
+                                                        <!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion211" href="#collapse212">2.1.2.	Agricultural Credit</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse212" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+                                                       <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">About Stapling of Packet of 500 & 1000 taka denomination note.. Ref: DCM Circular No. 02  dated 31-Jan-2016.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/dcmps/jan31dcmps02.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/dcmps/jan31dcmps02.pdf</a></footer></section></div>
+                                                        <!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- End of 4th Level---------------------------------------------------------------------------------------------------------------------->
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="w3-hover-red">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion21" href="#collapse22">2.2. Refinance</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse22" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <!-- Begining of 4th Level------------------------------------------------------------------------------------------------------------------------------>
+                                        <div class="panel-group" id="accordion221">
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion221" href="#collapse221">2.2.1. Green Finance</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse221" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+        <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Guidelines for National Payment Switch Bangladesh (NPSB) Logo. Ref: PSD Circular No. 01 dated 11-Mar-2019.</h5></header><div class="panel-body"><p style="text-align: justify;">Please click on the following link to view the original circular.</p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/psd/mar112019psd01e.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/psd/mar112019psd01e.pdf</a></footer></section></div>
+                                                        <!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="w3-hover-red">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#accordion221" href="#collapse222">2.2.2. Brick Kiln Efficiency</a>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapse222" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <!-- Begining of 5th Level------------------------------------------------------------------------------------------------------------------------------>
+        <div class="panel-body"><section class="panel panel-primary"><header class="panel-heading"><h5 align="center" class="panel-title">Regarding compliance of instructions of PSD Circular No. 04/2017. Ref: PSD Circular Letter No. 02 dated 26-Nov-2018.</h5></header><div class="panel-body">
+        <p style="text-align: center;">
+        <b><u>পিএসডি সার্কুলার নংঃ ০৪/২০১৭ এর নির্দেশনা পরিপালন প্রসঙ্গে।</u></b>
+        <p style="text-align: justify;">২৪ আগষ্ট, ২০১৭ তারিখে জারিকৃত পিএসডি সার্কুলার নংঃ ০৪/২০১৭ এর প্রতি দৃষ্টি আকর্ষণ করা যাচ্ছে।
+        <p style="text-align: justify;">উক্ত সার্কুলারের ১.৫ নং ধারা মোতাবেক ব্যাংক ও আর্থিক প্রতিষ্ঠান কর্তৃক ইস্যুকৃত সকল ব্র্যান্ডেড কার্ড চিপ ও পিন (CHIP
+        and PIN) যুক্ত করা; ইতঃপূর্বে ইস্যুকৃত এ ধরনের সকল ম্যাগনেটিক স্ট্রিপ কার্ডসমূহকে ক্রমান্বয়ে এ প্রযুক্তিতে উন্নীত করা এবং
+        ৩০-০৬-২০১৮ তারিখের মধ্যে এ প্রক্রিয়া পুরোপুরি সম্পন্ন করার নির্দেশনা প্রদান করা হয়েছিল। ব্যাংকসমূহ হতে প্রাপ্ত তথ্যানুযায়ী
+        অদ্যাবধি কতিপয় ব্যাংক তাদের ব্র্যান্ডেড ম্যাগনেটিক স্ট্রিপ কার্ডসমূহ চিপ ও পিন ভিত্তিক করার প্রক্রিয়া সম্পন্ন করেনি মর্মে জানা
+        গেছে।
+        <p style="text-align: justify;">এতদ্প্রেক্ষিতে, আগামী ৩১-১২-২০১৮ ইং তারিখের পর হতে নতুন ব্র্যান্ডেড কার্ড ইস্যু করার ক্ষেত্রে ম্যাগনেটিক স্ট্রিপ
+        প্রযুক্তির ব্যবহার রহিত করা হলো এবং একইসাথে ২৮-০২-২০১৯ ইং তারিখের মধ্যে আপনাদের প্রতিষ্ঠানের ইতোপূর্বে ইস্যুকৃত
+        ব্র্যান্ডেড ম্যাগনেটিক স্ট্রিপ কার্ডসমূহ চিপ ও পিন ভিত্তিক করার প্রক্রিয়া জরুরী ভিত্তিতে সম্পন্ন করে অত্র বিভাগকে অবহিত করার জন্য
+        পরামর্শ দেয়া যাচ্ছে।
+        <p style="text-align: justify;">অনুগ্রহপূর্বক প্রাপ্তি স্বীকার করবেন।
+        </p></div><footer class="panel-footer"><b>Source:</b><a href="https://www.bb.org.bd/mediaroom/circulars/psd/nov262018psdl02.pdf" target="_blank">https://www.bb.org.bd/mediaroom/circulars/psd/nov262018psdl02.pdf</a></footer></section></div>
+                                                        <!-- End of 5th Level---------------------------------------------------------------------------------------------------------------------->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>							
+                                        <!-- End of 4th Level---------------------------------------------------------------------------------------------------------------------->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>				
+                        <!-- Begining of 3rd Level------------------------------------------------------------------------------------------------------------------------------>
+                    </div>
+                </div>
+            </div>			
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-black text-neutral-content p-10">
+      <aside>
+        <p>
+          ACME Industries Ltd.
+          <br />
+          Providing reliable tech since 1992
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Get The App</h6>
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="w-36" src="./images/others/android.png" alt="" /></a>
+          <a> <img class="w-36" src="./images/others/ios.png" alt="" /> </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
