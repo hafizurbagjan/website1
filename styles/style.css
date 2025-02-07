@@ -11,3 +11,9 @@
 .mb-0 > a[aria-expanded="true"]:after {
   content: "\f077"; /* fa-chevron-up */
 }
+
+
+.hr {
+  height:0.5px;
+  background-color:red"
+  }
