@@ -2,18 +2,15 @@
 <html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="google-site-verification" content="4C1KJ_aoT-dvOnkVDQuXBJUiCe3oUkRbAie2P6Tf1v0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="4C1KJ_aoT-dvOnkVDQuXBJUiCe3oUkRbAie2P6Tf1v0" />
     <title>BB Circular</title>
     <!-- Google Font CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
     <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css"/>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- For Home Icon--><!-- For Search Icon-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -22,7 +19,7 @@
 
     <style>
       .font-poppins {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
     </style>
     <script>
@@ -3501,8 +3498,8 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="footer bg-black text-neutral-content p-10">
-      <nav style="margin-left: 100px;">
+    <footer class="footer bg-black text-neutral-content p-10 footer-title" style="font-size: 10px;">
+      <nav style="margin-left: 90px;">
         <h6 class="footer-title">Terms of Use</h6>
         <div class="grid grid-cols-1 gap-4">
           <p>fhvshvcahsv<br>
@@ -3521,16 +3518,24 @@
         <div class="grid grid-cols-1 gap-1">
           <a href="https://www.bb.org.bd/en/" target="_blank">Bangladesh Bank</a>
           <a href="https://mof.gov.bd/" target="_blank">Ministry of Finance</a>
-          <a href="https://nbr.gov.bd/" target="_blank">NBR</a>
+          <a href="https://nbr.gov.bd/" target="_blank">National Boar of Revenue (NBR)</a>
         </div>
       </nav>
       <nav  style="margin-left: 90px;">
         <h6 class="footer-title">Contact Us</h6>
         <div class="grid grid-cols-1 gap-4">
-          <p>fhvshvcahsv<br>
-          fhvshvcahsv</p>
+          <p>Md. Hafizur Rahman<br>
+          The Premier Bank PLC.<br>
+          Nagarpur Branch<br>
+        Tangail</p>
         </div>
       </nav>
+    </footer>
+    <footer style="justify-items: center; background-color: aqua;">
+      <p>&copy; <span id="year"></span> BB Circular. All Rights Reserved.</p>
+      <script>
+          document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </footer>
   </body>
 </html>
