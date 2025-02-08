@@ -11,3 +11,8 @@
 .mb-0 > a[aria-expanded="true"]:after {
   content: "\f077"; /* fa-chevron-up */
 }
+
+
+hr.new5 {
+  border: 1px solid gold;
+}
