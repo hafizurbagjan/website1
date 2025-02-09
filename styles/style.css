@@ -12,12 +12,6 @@
   content: "\f077"; /* fa-chevron-up */
 }
 
-
-hr.new5 {
-  border: 1px solid gold;
-}
-
 .hy {
-  border-bottom: 1px solid black;
-  padding-bottom: 1px;
+  border-bottom: 1px solid gold;
 }
