@@ -16,3 +16,9 @@
 hr.new5 {
   border: 1px solid gold;
 }
+
+.hy {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+}
