@@ -12,15 +12,13 @@
   content: "\f077"; /* fa-chevron-up */
 }
 
-.hy::before {
-  content: "* ";
-  color:red;
-  background-color: yellow;
-  font-weight: bold;
-}
-
 .hy {
   border-bottom: 1px solid gold;
-  text-transform: capitalize;
+  text-transform: Title;
 }
 
+p.hy::first-letter {
+  font-size: 125%;
+  font-weight: bold;
+  color: red;
+}
