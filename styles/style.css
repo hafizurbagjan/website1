@@ -22,3 +22,8 @@ p.hy::first-letter {
   
   color: red;
 }
+p.sub {
+  color:red;
+  font-weight: bold;
+  background-color: lightgreen;
+}
