@@ -1,0 +1,40 @@
+.mb-0 > a {
+    display: block;
+    position: relative;
+  }
+.mb-0 > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.mb-0 > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
+
+.hy {
+  border-bottom: 1px solid gold;
+  text-transform: Title;
+}
+
+p.hy::first-letter {
+  font-size: 125%;
+  
+  color: red;
+}
+p.sub {
+  color:red;
+  font-weight: bold;
+  background-color: lightgreen;
+}
+
+/* Animation*/
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
